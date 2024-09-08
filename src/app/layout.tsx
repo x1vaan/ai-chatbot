@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_40%_60%_at_50%_-5%,rgba(55,82,110,0.8),rgba(18,24,32,0))]"></div>
+        {children}
+      </body>
     </html>
   );
 }
