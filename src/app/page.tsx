@@ -28,7 +28,12 @@ export default function Home() {
           response times, improves satisfaction, and frees up valuable resources
           for more complex tasks.
         </p>
-        <MovingBorderButton title="Start chat" css="w-[136px] h-[36px] text-textColor bg-[#09090B] py-5"/>
+        <Link href="/home">
+          <MovingBorderButton
+            title="Start chat"
+            css="w-[136px] h-[36px] text-textColor bg-[#09090B] py-5"
+          />
+        </Link>
         <Link
           href="#"
           className="mt-8 text-textColor flex items-center hover:text-white transition"

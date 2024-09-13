@@ -9,14 +9,14 @@ export default function () {
       </div>
       <nav>
         <ul className="flex justify-center items-center space-x-6">
-          <li>
+          {/* <li>
             <Link
               href="#"
               className="text-textColor hover:text-white transition"
             >
               Blog
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               href="#"
